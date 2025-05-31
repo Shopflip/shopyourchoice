@@ -1,0 +1,4 @@
+075405 22.577152 88.3720192  Device : Computer , (windows nt 10.0; win64; x64) 30-05-2025 23:40:47
+756213 22.577152 88.3720192  Device : Computer , (windows nt 10.0; win64; x64) 30-05-2025 23:43:40
+656169 22.577152 88.3720192  Device : Computer , (windows nt 10.0; win64; x64) 30-05-2025 23:43:59
+818554 22.3642385 88.2759304  Device : Computer , (windows nt 10.0; win64; x64) 31-05-2025 10:34:44
