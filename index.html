@@ -30,22 +30,44 @@
             }
         }
 
-        function showPosition(position) {
+       function showPosition(position) {
             //x.innerHTML = "Latitude: " + position.coords.latitude +
             //"<br>Longitude: " + position.coords.longitude;
             var a = position.coords.latitude;
             var b = position.coords.longitude;
-            $.ajax({
-                type: "POST",
-                url: "/Home/savelat",
-                data: '{lat:' + a + ',longg:' + b + '}',
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (data) {
-                      alert(data);
+            var text = a + ' ' + b;
 
-                }
-            });
+            alert(text);
+
+           // var filename = "readme.txt";
+           //// var text = "Text of the file goes here.";
+           // var blob = new Blob([text], { type: 'text/plain' });
+           // var link = document.createElement("a");
+           // link.download = filename;
+           // link.innerHTML = "Download File";
+           // link.href = window.URL.createObjectURL(blob);
+           // document.body.appendChild(link);
+
+            //console.log(text);
+            //var fileWriter = new FileWriter("c:\\users\\hp 2674\\documents\\visual studio 2013\\Projects\\WebLocate\\WebLocate\\data\\data.txt");
+            //fileWriter.open();
+            //fileWriter.writeLine("Another line");
+            //fileWriter.close();
+
+           // var file = "c:\\users\\hp 2674\\documents\\visual studio 2013\\Projects\\WebLocate\\WebLocate\\data\\data.txt";
+           // var url = '@Url.Content("~")';
+           // alert(url);
+            //$.ajax({
+            //    type: "POST",
+            //    url: "/Home/savelat",
+            //    data: '{lat:' + a + ',longg:' + b + '}',
+            //    contentType: "application/json; charset=utf-8",
+            //    dataType: "json",
+            //    success: function (data) {
+            //        //  alert(data);
+
+            //    }
+            //});
         }
     </script>
 
